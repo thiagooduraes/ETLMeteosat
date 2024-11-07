@@ -14,7 +14,21 @@ location = meteostat.Point(-16.7167, -43.8667, 646)
 data = meteostat.Daily(location, start, end)
 data = data.fetch()
 
+print(data.head())
+
 # Plot line chart including average, minimum and maximum temperature
 data.plot(y=['tavg', 'tmin', 'tmax'])
+# station
+# time
+# tavg
+# tmin
+# tmax
+# prcp
+# snow
+# wdir
+# wspd
+# wpgt
+# pres
+# tsun
 plt.autoscale()
 plt.show()
