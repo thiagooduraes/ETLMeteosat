@@ -2,3 +2,4 @@ meteostat
 pandas
 duckdb
 schedule
+streamlit
